@@ -1,3 +1,4 @@
+/* Anmelden box styling */
 #anmelden {
   background-color: white;
   display: flex;
@@ -17,6 +18,7 @@ form {
   align-items: center;
   width: 100%;
 }
+/* Styling the class for email and password input boxes */
 .action {
   background-color: white;
   border: 1px solid lightgray;
@@ -27,6 +29,11 @@ form {
   width: 300px;
   border-radius: 5px;
 }
+.action:focus {
+  outline: none !important;
+  border: 1px solid rgba(0, 119, 246, 1);
+}
+/* Styling the "Anmelden" button */
 #button-active {
   display: flex;
   justify-content: center;
@@ -40,10 +47,7 @@ form {
   border: none;
   color: white;
 }
-.action:focus {
-  outline: none !important;
-  border: 1px solid rgba(0, 119, 246, 1);
-}
+/* Styling the password vergessen link */
 a {
   display: flex;
   flex-direction: column;
@@ -51,6 +55,12 @@ a {
   color: rgba(0, 119, 246, 1);
   align-items: center;
 }
+form hr {
+  width: 320px;
+  color: lightgray;
+}
+
+/* Styling the "neues Konto erstellen" container and the button */
 #erstellen {
   display: flex;
   justify-content: center;
@@ -66,6 +76,7 @@ a {
   border-radius: 5px;
   color: white;
 }
+/* Styling the text below the "anmelden box" */
 .bottom {
   display: flex;
   flex-direction: row;
@@ -78,13 +89,4 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 10px;
-}
-form hr {
-  width: 320px;
-  color: lightgray;
-}
-
-p {
-  color: rgb(184, 187, 193);
-  background-color: FFFFFF;
 }

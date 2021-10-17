@@ -1,6 +1,7 @@
 footer {
   overflow: auto;
 }
+/* Styling the sections for language preferences and the useful links */
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +15,6 @@ footer a {
   text-decoration: none;
   color: rgb(184, 187, 193);
 }
-
 footer span {
   margin: 5px;
 }
