@@ -1,0 +1,10 @@
+/* General settings */
+body,
+main,
+footer,
+.anmelden-container,
+#anmelden,
+form {
+  margin: 0px;
+  padding: 0px;
+}

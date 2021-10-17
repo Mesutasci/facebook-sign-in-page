@@ -1,0 +1,36 @@
+footer {
+  overflow: auto;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.links button {
+  border: rgb(128, 126, 126);
+}
+footer a {
+  text-decoration: none;
+  color: rgb(184, 187, 193);
+}
+
+footer span {
+  margin: 5px;
+}
+#span-img {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+}
+footer img {
+  margin-left: -5px;
+  width: 20%;
+}
+footer hr {
+  width: 100%;
+  color: lightgray;
+}
+footer p {
+  color: rgb(184, 187, 193);
+}
